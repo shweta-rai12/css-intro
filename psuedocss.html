@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .div1
+    {
+       height:200px ;
+       width: 200px;
+       background-color: aqua;
+       margin: auto;
+    }
+    .div:hover{
+        background-color: red;
+        border-radius: 50%;
+    }
+    nav
+    {
+        background-color: black;
+        text-align: center;
+    }
+    a{
+        color:white ;
+        word-spacing: 30px;
+        font-size: 50px;
+        text-decoration: none;
+    }
+    a:hover{
+        background-color: white;
+        color: red;
+    }
+    li:first-child
+    {
+        background-color: turquoise;
+        font-size:70px;
+        font-family: cursive;
+    }
+    li:last-child
+    {
+        background-color: yellowgreen;
+        color: rgb(173, 13, 13);
+        font-size: 30px;
+    }
+    li:nth-child(even)
+    {
+        background-color: tomato;
+        font-family: jokerman;
+    }
+    li:nth-child(3) , li:nth-child(5)
+    {
+        font-size: 60px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    p::first-line
+    {
+        font-size: 30px;
+        color: brown;
+    }
+    p::first-letter
+    {
+        font-size: 90px;
+        font-family: jokerman;
+    }
+    li
+    {
+        list-style-type: none;
+    }
+    li::before{
+        content: "@";
+    }
+    li::after{
+        content: "&cpy";
+        color: pink;
+        font-size: 90px;
+    }
+</style>
+<body>
+    <div class="div1">
+        
+    </div>
+    <div>
+        <nav>
+        <a href="">Home</a>
+        <a href="">Contact</a>
+        <a href="">Services</a>
+        <a href="">Work</a>
+        </nav>
+    </div>
+    <ul>
+        <li>one</li>
+        <li>tow</li>
+        <li>three</li>
+        <li>four</li>
+        <li>five</li>
+        <li>six</li>
+        <li> seven </li>
+        <li>  eight</li>
+        <li>nine</li>
+        <li> ten </li>
+    </ul>
+    <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+</body>
+</html>
